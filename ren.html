@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>ren</title>
+        <style>
+            .myDiv{
+                color: blue;
+                text-align: left;
+            }
+            #genderTitle{
+                color: red;
+                background-color: yellow;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="myDiv">
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+            <br>
+            <label for="fname">Second name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your second name">
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="Email">
+             <br>
+            <label>Password</label>
+            <input type="password" placeholder="Password">
+           <br>
+            <label id="genderTitle">Gender:</label><br>
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <br>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <br>
+            <br>
+            <label id="vehicleTitle">Which vehicle do you have?</label>
+            <br>
+            <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+            <label id="vehicle1label" form="vehicle1">I have a bike</label>
+            <br>
+            <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+            <label  id="vehicle2label" form="vehicle2">I have a car</label>
+            <br>
+            <input type="checkbox" name="vehicle3" id="vehicle3" value="Boat">
+            <label id="vehicle3label" form="vehicle3">I have a boat</label>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+         </form>
+        </div>
+    </body>
+</html>
